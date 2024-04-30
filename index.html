@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title">Mozzy - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta property="og:title" content="Mozzy | Portfolio">
+    <meta property="og:description" content="To jest moje portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mozzy">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="en_GB">
+    <meta property="og:locale:alternate" content="pl_PL">
+    <meta property="og:color" content="#91A6E5">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <body class="dark-mode">
+        <div class="language-picker">
+            <button id="language-toggle"></button>
+        </div>
+<!-- Główne Informacje -->
+        <div class="main-content">
+            <div class="section about-section">
+                <div class="section-header">O MNIE</div>
+                <div class="about-content">Cześć, jestem Mozzy. Interesuje się informatyką oraz elektroniką. Moja przygoda z tworzeniem serwerów Discord sięga już 4 lat, a obecnie poszerzam swoje umiejętności o tworzenie serwerów Minecraft. W mojej pracy stawiam na wykorzystanie najnowszych i najbardziej innowacyjnych rozwiązań, aby moje projekty wyróżniały się spośród innych. Dzięki wielu projektom, które miałem okazję stworzyć, zdobyłem wiedzę na temat tego, jakie elementy i rozwiązania należy odpowiednio umieścić, aby finalny produkt był wykonany na najwyższym poziomie. Każdy projekt traktuję jako nowe wyzwanie, dążąc do perfekcji i zadowolenia klientów.</div>
+            </div>
+            <div class="section experience-section">
+                <div class="section-header">DOŚWIADCZENIE</div>
+                <div class="about-content">Zapraszam Cię do odkrycia mojej pasji i zaangażowania w tworzenie społeczności online przez ostatnie 4 lata. Moje pierwsze kroki w projektowaniu serwerów Discord i Minecraft zaczynały się od tworzenia serwerów dla własnych potrzeb. Z czasem przerodziło się to w profesjonalne podejście, gdzie skupiam się na unikalnych rozwiązaniach dostosowanych do indywidualnych potrzeb każdego klienta. Nieustannie rozwijam swoje umiejętności, nie tylko poprzez eksperymentowanie z nowymi technologiami, ale również poprzez ciągłe uczenie się nowych rzeczy podczas pracy nad projektami. Jednym z moich wyróżników są systemy zwiazane z botami, które opracowuję, wykorzystując rozwiązania rzadko spotykane na innych serwerach. Dzięki temu zapewniam klientom łatwiejszy kontakt oraz bardziej zaawansowane funkcje. Swoją pracę opieram na dostępnych poradnikach internetowych, ale zawsze dążę do unikatowych rozwiązań. Największą satysfakcję przynoszą mi projekty, które rosną i rozwijają się wraz z czasem, dzięki czemu widzę efekty mojej pracy. W przyszłości planuję nadal doskonalić swoje umiejętności, korzystając z najnowszych i najlepszych rozwiązań, oraz pracować bardziej skupione i precyzyjne, aby osiągnąć jeszcze lepsze efekty. Chciałbym również poszerzyć swoje umiejętności o programowanie botów, aby jeszcze lepiej sprostać oczekiwaniom klientów</div>
+            </div>
+            <div class="section education-section">
+                <div class="section-header">O MNIE</div>
+                <div class="about-content">Staram się nie tylko realizować projekty, ale także w pełni dopasować się do oczekiwań i potrzeb każdego klienta. Moja praca w DreamCode pozwoliła mi zdobyć zaufanie tzw. legitchecki, co dodatkowo podkreśla moje podejście do zapewnienia bezpieczeństwa i zaufania na serwerach. Dążę do tego, aby każdy projekt był nie tylko unikalny, ale także zrealizowany perfekcyjnie, uwzględniając nawet najmniejsze detale. Wybierając mnie, wybierasz nie tylko profesjonalizm i kreatywność, ale również pewność, że Twój projekt zostanie zrealizowany zgodnie z Twoimi oczekiwaniami i najwyższymi standardami jakości.</div>
+            </div>
+<!-- Klikalne kafelki -->
+            <div class="section portfolio-section">
+                <div class="section-header">MOJE PROJEKTY</div>
+                <ul class="project-list">
+                    <li class="project-item" data-project-id="1">
+                        <h3 class="project-title">WIDZOWIE FADUUZA</h3>
+                        <p class="project-description">Serwer discord stworzony dla TikTok'era Faduuz.</p>
+                    </li>
+                    <li class="project-item" data-project-id="2">
+                        <h3 class="project-title">LUNA SHOP</h3>
+                        <p class="project-description">Serwer discord w stylu Market.</p>
+                    </li>
+                    <li class="project-item" data-project-id="3">
+                        <h3 class="project-title">CHMURKOWO</h3>
+                        <p class="project-description">Serwer Community stworzony z myślą o społeczności.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+<!-- Okienka -->
+        <div class="project-popup" id="project-popup">
+            <div class="project-popup-content">
+                <div class="project-popup-header">
+                    <h3 class="project-popup-title"></h3>
+                    <button class="project-popup-close">X</button>
+                </div>
+                <p class="project-popup-description"></p>
+                <p class="project-popup-tech"></p>
+                <div class="project-popup-screenshots"></div>
+                <div class="project-popup-link">
+                    <a href="#" target="_blank">ZOBACZ PROJEKT</a>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p data-i18n="footer-line1"></p>
+        </footer>
+        <script src="js/translationManager.js"></script>
+        <script src="js/projectsPopup.js"></script>
+    </body>
+</html>
